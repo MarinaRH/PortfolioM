@@ -122,6 +122,8 @@ div.inv {
 
 div.portafolio:hover div.inv {
   opacity:1;
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 p.title {
