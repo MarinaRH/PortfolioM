@@ -15,18 +15,19 @@ header {
 }
 
 .color-nav {
-  color: #858283;
+  color: #ffffff;
   font-weight: bolder;
   font-size: 17px;
 }
 
 .nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active{
-  color: white;
-  background-color: rgba(65, 3, 17, 0.39);
+  color: rgb(29, 28, 28);
+  background-color:transparent;
+  font-size: 20px;
 }
 
 .nav-scroll{
-  background-color: rgba(95, 3, 26, 0.664);
+  background-color: rgba(75, 4, 21, 0.486);
   transition: all 1s ease;
   color: rgb(247, 244, 244);
   padding: 2px 28px;
@@ -65,8 +66,15 @@ header {
 
 /* habilidades */
 #habilidades {
-  height: 500px;
-  background-color: blue;
+  height: 100vh;
+  background-color: rgba(206, 204, 206, 0.329);
+}
+
+.habilidad {
+  border: 1px solid black;
+  height: 35vh;
+  margin-top: 15px;
+  box-sizing: border-box;
 }
 
 #proyectos {
