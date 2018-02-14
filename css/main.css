@@ -33,14 +33,16 @@ header {
 }
 
 .nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active{
-  color: rgb(77, 75, 75);
-  background-color:transparent;
+  color: white;
+  background-color:rgba(216, 211, 211, 0.103);
+  /* background-color: transparent; */
   font-size: 14px;
   font-weight: bolder;
+  /* border-bottom: 1px solid white; */
 }
 
 .nav-scroll{
-  background-color: rgb(37, 2, 10);
+  background-color: rgb(31, 5, 10);
   transition: all 1s ease;
   color: rgb(247, 244, 244);
   padding: 0px 28px;
@@ -305,19 +307,17 @@ h1.name {
 @media (min-width:920px) { 
 
   .color-nav {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .color-nav:hover {
     color: #4d4b4b;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: bolder;
   }
 
   .nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active{
-    color: rgb(134, 132, 132);
-    background-color:transparent;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: bolder;
   }
 
