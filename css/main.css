@@ -95,7 +95,7 @@ header {
 
 /* Sobre mí */
 #sobremi {
-  background:linear-gradient(to right, rgb(10, 5, 5) , rgb(117, 208, 224)) !important;
+  background:linear-gradient(to right, rgba(10, 5, 5, 0.884) , rgba(123, 206, 221, 0.849)) !important;
 }
 
 .section-mi {
@@ -148,11 +148,11 @@ header {
 .card  {
   box-shadow: 0 0px 15px 10px rgba(0, 0, 0, 0.158), 5px 5px 2px 0 rgba(0,0,0,.21);
   border-radius: 10px;
-  margin-left: 3%;
-  margin-top: 3%
+  margin-left: 1%;
+  margin-top: 1%
 }
 .card img {
-  width: 20%;
+  width: 17%;
   text-align: center;
 }
 /* #habilidades {
