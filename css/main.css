@@ -205,28 +205,29 @@ p.text-ico {
   box-sizing: border-box !important;
 }
 
-.portafolio {
-  padding: 1.9% ;
+/* .portafolio {
+  padding: 2.5% auto ;
   box-sizing: border-box;
-}
+} */
 
 .div-proyectos {
-  padding: 3%;
+  margin-top:7%;
 }
 
 .portafolio img {
   border-radius: 10px;
-  height: 30vh;
-  width: 90%;
+  height: 40vh;
+  width: 80%;
 }
 
 /* proyectos hover */
 div.inv {
+  margin-left: 0;
   position:absolute;
   overflow:hidden;
-  width: 80%;
-  height: 32vh;
-  background: radial-gradient(rgba(0, 0, 0, 0.56), rgba(70, 112, 124, 0.952));
+  width: 75%;
+  height: 40vh;
+  background: radial-gradient(rgba(39, 41, 38, 0.781), rgba(14, 17, 2, 0.945));
   opacity:0;
   transition: opacity 0.3s;
   text-align: center;
@@ -236,48 +237,59 @@ div.inv {
 
 div.portafolio:hover div.inv {
   opacity:1;
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-  text-align: center;
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 p.title {
   position: absolute;
-  font-size: 1.6rem;
-  margin-left: -9% auto;
-  margin-top: 7%;
+  font-size: 0.9rem;
+  margin-top: 2%;
   transition: margin-left 0.3s;
   color: rgb(255, 255, 255);
   font-weight: bolder;
-  text-align: center;
 }
 
 div.portafolio:hover p.title {
-  margin-left:25%;
+  margin-left:23%;
+  transition: 1s;
+}
+
+p.parrafo {
+  position: absolute;
+  font-size: 0.5rem;
+  margin-top: 2%;
+  transition: margin-left 0.3s;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 5px;
+}
+
+div.portafolio:hover p.parrafo {
+  margin-top:18%;
   transition: 1s;
 }
 
 a#btn{
-  font-size: 1rem;
+  font-size: 0.5rem;
   text-align: center;
-  margin-top: 50%;
-  margin-left: 10% auto;
+  margin: 5% auto 12%;
   transition: margin-top 0.4s;
-  color: white;
+  color: rgb(35, 36, 5);
   font-weight: bolder;
-  border: 1px solid white;
+  border: 1px solid rgb(68, 70, 9);
 }
 
 div.portafolio:hover a#btn{
-  margin-top: 23%;
-  margin-bottom: 5%;
+  margin-top: 14%;
+  /* margin-bottom: 15%; */
   transition: 1s;
 }
 
 a#btn:hover {
-  background-color: rgb(90, 167, 211);
+  background-color: rgba(55, 73, 11, 0.774);
   color: rgb(244, 247, 248);
-  border-color: #08282e;
+  border-color: #303804;
   /* font-size: 1.2rem; */
 }
 
@@ -449,6 +461,28 @@ h1.name {
   /* contactame */
   h6.white {
     font-size: 16px;
+  }
+
+  /* proyectos */
+  p.parrafo {
+    font-size: 0.7rem;
+    margin-top: 5%;
+    padding: 5px 15px;
+  }
+  
+  p.title {
+    font-size: 1.5rem;
+    margin-top: 8%;
+  }
+  div.portafolio:hover p.title {
+    margin-left:35%;
+  }
+
+  a#btn{
+    font-size: 1.2rem;
+    margin: 1% auto 5%;
+    margin-left: 10%;
+    border: 2px solid rgb(68, 70, 9);
   }
 }
 
