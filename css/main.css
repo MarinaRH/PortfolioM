@@ -1,16 +1,31 @@
 * {
   font-family: 'Trocchi', serif;
-  letter-spacing: 2px;
-  padding: 0;
-  margin-right: 0 !important;
+  letter-spacing: 1px;
+  /* padding: 0; */
 }
 
-body {
-  margin: 0px !important;
+.rigth {
+  float: right;
 }
 
+.color {
+  color: rgb(50, 54, 9);
+  font-weight: bolder;
+}
+
+.start {
+  color: rgb(38, 41, 7);
+  font-size: 26px;
+  font-weight: 900;
+}
 .white {
   color: white;
+}
+
+h1.title {
+  padding-top: 5%;
+  font-size: 22px;
+  color: rgb(38, 41, 7);
 }
 
 .center {
@@ -18,40 +33,42 @@ body {
 }
 /* header */
 header {
-  padding: 20px 5px 1px 5px;
+  
+  padding: 20px 5px 5px;
   background:rgba(12, 12, 12, 0.411);
 }
 
 .logo img {
-  width: 9%;
-  padding-left: 10px;
+  width: 40px;
   padding-bottom: 7px;
 }
 
+/* ul.nav {
+  padding: 5px;
+} */
 .color-nav {
   color: #fcfafb;
-  font-size: 10px;
+  font-size: 9px;
+  text-align: center;
 }
 
 .color-nav:hover {
-  color: rgb(17, 171, 182);
-  font-size: 12px;
+  color: rgb(206, 240, 128);
+  font-size: 10px;
   font-weight: bold;
 }
 
 .nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active{
-  color: rgb(17, 171, 182);
+  color: rgb(154, 155, 152);
   background-color:transparent;
-  /* background-color: transparent; */
-  font-size: 14px;
+  font-size: 10px;
   font-weight: bolder;
-  /* border-bottom: 1px solid white; */
+  border-bottom: 2px solid rgb(192, 190, 190);
 }
 
 .nav-scroll{
-  background-color: rgba(26, 25, 25, 0.952);
+  background-color: rgba(48, 47, 47, 0.952);
   transition: all 1s ease;
-  padding: 0px 10px;
 }
 
 .nav-link {
@@ -61,9 +78,9 @@ header {
 /* inicio */
 
 .inicio {
-  background-image: url(../assets/images/cafe.png);
+  background-image: url(../assets/images/cafe.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   background-attachment: fixed;
   background-position: center;
   height: 100vh;
@@ -74,28 +91,31 @@ header {
   position: absolute;
   font-weight: bold;
   bottom: 55%;
-  left: 19%;
+  left: 35%;
   z-index: 1;
-  font-size: 2.4em;
-  color: rgb(44, 114, 119);
+  font-size: 1.5em;
+  font-style: italic;
+  color: rgb(25, 27, 4);
   font-family: 'Trocchi', serif;
 } 
 
 
 .sub-text {
   position: absolute;
-  font-weight: bold;
-  bottom: 28%;
-  left: 43%;
+  font-weight: 900;
+  bottom: 38%;
+  left: 16%;
   z-index: 1;
-  font-size: 16px;
-  color: rgb(30, 88, 92);
+  font-size: 22px;
+  color: rgb(231, 235, 238);
+  font-style: italic;
   font-family: 'Trocchi', serif;
 } 
 
 /* Sobre mí */
 #sobremi {
-  background:linear-gradient(to right, rgba(10, 5, 5, 0.884) , rgba(123, 206, 221, 0.849)) !important;
+  /* background:linear-gradient(to right, rgb(10, 5, 5) , rgb(117, 208, 224)) !important; */
+  
 }
 
 .section-mi {
@@ -103,73 +123,85 @@ header {
 }
 
 .img-marin img {
-  width: 70%;
-  height: 70%;
-  border-radius: 100%;
+  width: 60%;
+  height: 80%;
+  border-radius: 10%;
   margin-left: 20%;
+  transform: rotate(7deg);
+  border: 7px solid rgb(239, 248, 204);
 }
 
 .container-flex-column {
   display: flex;
 	flex-direction:column;
   justify-content: center;
-  box-sizing: border-box;
 }
 
 .biografy {
-  font-size: 16px;
+  font-size: 15px;
   text-align: justify;
-  padding: 20px;
-  font-weight: bold;
-  letter-spacing: 2.5px;
-}
-
-.interest {
-  padding-top: 10px;
-  font-weight: bold;
-}
-
-.interest p2 {
-  color: rgba(199, 228, 245, 0.993);
-  font-size: 24px;
-}
-.interest>span {
-  border-radius: 100%;
-  border:rgba(95, 146, 204, 0.993) solid 1px;
-  padding: 12px;
-  color: rgba(44, 51, 131, 0.705);
-  font-size: 21px;
-  margin-left: 7px;
-  box-shadow: 0 0px 25px 15px rgba(0, 0, 0, 0.158), 5px 5px 2px 0 rgba(0,0,0,.21);
-
+  padding: 5px auto;
+  letter-spacing: 2px;
+  color: rgb(31, 37, 37);
 }
 
 /* habilidades */
-.card  {
-  box-shadow: 0 0px 10px 10px rgba(0, 0, 0, 0.158), 5px 5px 2px 0 rgba(0,0,0,.21);
-  border-radius: 10px;
-  margin-left: 1%;
-  margin-top: 1%
-}
-.card img {
-  width: 17%;
-  text-align: center;
-}
+
 #habilidades {
-  padding: 70px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(237, 252, 201, 0.863);
+  padding: 10px 0 25px !important;
 }
 
-/* .habilidad img{
-  padding: 14px;
-  box-sizing: border-box;
-} */
+.card  {
+  box-shadow: 2px 4px rgba(215, 241, 99, 0.863), 3px 2px rgba(0,0,0,.21);
+  border-radius: 10px;
+  background-color: inherit;
+  width: 47%;
+  margin-left: 2%;
+  margin-top: 2%;
+}
+
+.card-desktop {
+  display: none;
+}
+
+.end {
+  margin-left: 25%;
+}
+
+.card-title {
+  font-size: 13px;
+  text-transform:uppercase;
+  font-weight: bolder;
+}
+
+p.card-text{
+  font-size: 11px;
+}
+
+.devicon {
+  font-size: 1.2rem;
+}
+
+img.devicon {
+  width: 1rem;
+}
+
+div.inline {
+  display: flex;
+}
+
+p.text-ico {
+  color: rgb(78, 112, 112);
+  font-size: 10px;
+  margin-right: 2px;
+}
 
 /* proyectos */
 
 #proyectos {
   height: 100%;
-  background-color: rgba(209, 206, 209, 0.842);
+  background-color: #ffffffb6;
   box-sizing: border-box !important;
 }
 
@@ -251,42 +283,28 @@ a#btn:hover {
 
 /* contactame */
 #contactame {
+  background-color: #1d1c1c;
+  color: white;
   height: 100vh;
-  background-color: #9b9898;
 }
 
+.contacme {
+ padding: 0 15px;
+}
+
+#contactame>.container>.row {
+  display: flex;
+  align-items: center !important;
+  height: 80vh;
+}
 .cont i {
   font-size: 3em;
-  color: rgb(82, 195, 240);
+  color: rgb(198, 243, 139);
   padding-bottom: 16px;
 }
 
-.contact i{
-  font-size: 3em;
-  display: inline;
-  padding:7px;
-  color: rgb(57, 140, 151);
-  padding:2%;
-}
-
-/* texto vertical */
-.vertical {
-  display: inline;
-  width: 1vh;
-  position: absolute;
-  font-weight: bold;
-  word-wrap: break-word;
-  font-size: 18px;
-  padding-left:30%;
-  /* z-index: 9999; */
-}
-
-
-.cont-vertical {
-  background-color: black;
-  height: 100vh;
-  text-align: center;
-  color: rgb(82, 195, 240);
+h6.white {
+  font-size: 10px;
 }
 
 
@@ -297,53 +315,27 @@ a#btn:hover {
 }
 
 h1.name {
-  cursor: default;
   position: absolute;
-  text-shadow: 2px 1px 2px rgb(148, 13, 13);
   top: 20px;
   left: 0;
   right: 0;
   bottom: 0;
-  height: 70px;
+  height: 90px;
   margin: auto;
   display: block;
-  /* font-family: 'Montserrat Alternates', sans-serif !important; */
   font-family: 'Trocchi', serif;
   -webkit-animation: bounce .8s ease infinite alternate;
-  
-  /* font-family: 'Source Sans Pro', cursive; */
-  /* 'Source Sans Pro', sans-serif; */
-
-  font-size: 35px;
-  /* font-weight: bold; */
-  color: rgb(253, 253, 253);
-  /* text-align: center; */
-  line-height: 80px;
-  text-shadow: 0 1px 0 rgb(250, 248, 248),
-               0 2px 0 rgb(12, 1, 1),
-               0 3px 0 rgb(22, 225, 240),
-               0 4px 0 rgb(2, 2, 2),
-               0 5px 0 rgb(253, 252, 252),
-               0 6px 0 transparent,
-               0 7px 0 rgb(248, 245, 245),
-               0 8px 0 black,
-               0 9px 0 rgb(255, 253, 253),
-               0 10px 10px rgba(17, 17, 17, 0.671);
+  font-size: 40px;
+  font-weight: bold;
+  color: rgba(188, 231, 108, 0.966);
+  line-height: 60px;
+  font-style: italic;
+  text-shadow: 0 1px 0 rgb(37, 43, 43);
 }
 /* ANIMATION */
 @-webkit-keyframes bounce {
   100% {
-    top: -30px;
-    text-shadow: 0 1px 0 rgb(253, 252, 253),
-                 0 2px 0 rgb(22, 22, 22),
-                 0 3px 0 rgb(255, 255, 255),
-                 0 4px 0 rgb(12, 12, 12),
-                 0 5px 0 rgb(12, 12, 12),
-                 0 6px 0 rgb(153, 152, 152),
-                 0 7px 0 rgb(17, 16, 16),
-                 0 8px 0 rgb(82, 81, 81),
-                 0 9px 0 rgb(8, 8, 8),
-                 0 30px 30px rgba(252, 250, 250, 0.925);
+    top: -5px;
   }
 }
 
@@ -351,8 +343,28 @@ h1.name {
 
 
 @media (min-width:920px) { 
+
+  .text {
+    bottom: 60%;
+    left: 16%;
+    font-size: 2.5em;
+}
+  
+  .sub-text {
+    bottom: 38%;
+    left: 16%;
+    z-index: 1;
+    font-size: 40px;
+  } 
+
   h1.name {
-    font-size: 50px;
+    font-size: 68px;
+  }
+
+  h1.title {
+    padding-top: 5%;
+    font-size: 34px;
+    font-weight: 900;
   }
   
   .nav-link {
@@ -367,10 +379,16 @@ h1.name {
   }
 
   .color-nav:hover {
-    color: rgb(82, 195, 240);
+    color: rgb(214, 250, 149);
     font-size: 16px;
     font-weight: bolder;
     transition: 2s;
+  }
+
+  .logo img {
+    width: 80px;
+    padding-bottom: 7px;
+    padding-left: 15px;
   }
 
   .nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active{
@@ -395,6 +413,42 @@ h1.name {
   
   .vertical {
     font-size: 26px;
+  }
+
+  /* habilidades
+   */
+  .devicon {
+    font-size: 3rem;
+  }
+
+  .card-mobile {
+    display: none;
+  }
+
+  .card-desktop {
+    display:inline-flex;
+  }
+  .card-title {
+    font-size: 17px;
+}
+  
+  .end {
+    margin-left: 0;
+  }
+
+  img.devicon {
+    width: 2.5rem;
+  }
+  /* sobre mi */
+  .img-marin img {
+    width: 65%;
+    height: 55%;
+    margin-left: 13%;
+  }
+
+  /* contactame */
+  h6.white {
+    font-size: 16px;
   }
 }
 
