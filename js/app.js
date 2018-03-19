@@ -16,7 +16,6 @@ AOS.init({
 
   //  Array con las imagenes y enlaces que se iran mostrando en la web  
   var imagenes=new Array(
-    ['assets/images/mar.jpg'],
     ['assets/images/marina.jpeg'],
     ['assets/images/mar3.jpg']
   );
