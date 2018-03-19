@@ -113,10 +113,6 @@ header {
 } 
 
 /* Sobre mí */
-#sobremi {
-  /* background:linear-gradient(to right, rgb(10, 5, 5) , rgb(117, 208, 224)) !important; */
-  
-}
 
 .section-mi {
   height: 100vh;
@@ -156,8 +152,8 @@ header {
   box-shadow: 2px 4px rgba(215, 241, 99, 0.863), 3px 2px rgba(0,0,0,.21);
   border-radius: 10px;
   background-color: inherit;
-  width: 47%;
-  margin-left: 2%;
+  width: 80%;
+  margin-left: 10%;
   margin-top: 2%;
 }
 
@@ -166,6 +162,10 @@ header {
 }
 
 .end {
+  margin-left: 10%;
+}
+
+.end-2 {
   margin-left: 25%;
 }
 
@@ -216,8 +216,9 @@ p.text-ico {
 
 .portafolio img {
   border-radius: 10px;
-  height: 40vh;
+  height: 30vh;
   width: 80%;
+  margin-left: 10%;
 }
 
 /* proyectos hover */
@@ -225,8 +226,9 @@ div.inv {
   margin-left: 0;
   position:absolute;
   overflow:hidden;
-  width: 75%;
-  height: 40vh;
+  width: 70%;
+  height: 30vh;
+  margin-left:10%;
   background: radial-gradient(rgba(39, 41, 38, 0.781), rgba(14, 17, 2, 0.945));
   opacity:0;
   transition: opacity 0.3s;
@@ -271,9 +273,9 @@ div.portafolio:hover p.parrafo {
 }
 
 a#btn{
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   text-align: center;
-  margin: 5% auto 12%;
+  margin: 5% 12% 12%;
   transition: margin-top 0.4s;
   color: rgb(35, 36, 5);
   font-weight: bolder;
@@ -429,6 +431,16 @@ h1.name {
 
   /* habilidades
    */
+   .card  {
+    width: 47%;
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+
+  .end {
+    margin-left: 25%;
+  }
+
   .devicon {
     font-size: 3rem;
   }
@@ -464,6 +476,11 @@ h1.name {
   }
 
   /* proyectos */
+  .portafolio img {
+    width: 80%;
+    margin-left: auto;
+  }
+
   p.parrafo {
     font-size: 0.7rem;
     margin-top: 5%;
