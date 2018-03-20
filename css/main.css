@@ -1,5 +1,5 @@
 * {
-  letter-spacing: 1px;
+  letter-spacing: 0.1px;
 }
 
 main {
@@ -37,13 +37,11 @@ h1.title {
 /* header */
 header {
   font-family: 'BioRhyme', serif;
-  padding: 20px 5px 5px;
   background:rgba(12, 12, 12, 0.411);
 }
 
-.logo img {
-  width: 40px;
-  padding-bottom: 7px;
+img.logo {
+  width: 22px;
 }
 
 .color-nav {
@@ -59,20 +57,20 @@ header {
 }
 
 .nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active{
-  color: rgb(154, 155, 152);
   background-color:transparent;
-  font-size: 10px;
+  font-size: 9px;
   font-weight: bolder;
-  border-bottom: 2px solid rgb(192, 190, 190);
+  border-bottom: 1px solid rgb(255, 254, 254);
 }
 
 .nav-scroll{
-  background-color: rgba(48, 47, 47, 0.952);
+  background-color: rgba(15, 17, 1, 0.952);
   transition: all 1s ease;
+  /* padding: 1px 310px !important; */
 }
 
 .nav-link {
-  padding: 0px;
+  padding: 0;
 }
 
 /* inicio */
@@ -94,18 +92,18 @@ header {
   left: 40%;
   z-index: 1;
   font-size: 1.5em;
-  color: rgb(26, 26, 1);
+  color: rgb(34, 34, 2);
 } 
 
 
 .sub-text {
   position: absolute;
   font-weight: 900;
-  bottom: 38%;
+  bottom: 40%;
   left: 16%;
   z-index: 1;
-  font-size: 22px;
-  color: rgb(255, 255, 255);
+  font-size: 24px;
+  color: rgb(211, 233, 16);
 } 
 
 /* Sobre mí */
@@ -140,12 +138,12 @@ header {
 /* habilidades */
 
 #habilidades {
-  background-color: rgba(237, 252, 201, 0.863);
+  background-color: rgba(244, 252, 204, 0.952);
   padding: 10px 0 25px !important;
 }
 
 .card  {
-  box-shadow: 2px 4px rgba(215, 241, 99, 0.863), 3px 2px rgba(0,0,0,.21);
+  box-shadow: 2px 4px rgba(215, 241, 99, 0.863), 3px 4px rgb(250, 249, 249);
   border-radius: 10px;
   background-color: inherit;
   width: 80%;
@@ -163,6 +161,7 @@ header {
 
 .end-2 {
   margin-left: 25%;
+  margin-bottom: 9%;
 }
 
 .card-title {
@@ -207,7 +206,8 @@ p.text-ico {
 } */
 
 .div-proyectos {
-  margin-top:7%;
+  margin-top:6%;
+  margin-bottom: 5%;
 }
 
 .portafolio img {
@@ -219,7 +219,6 @@ p.text-ico {
 
 /* proyectos hover */
 div.inv {
-  margin-left: 0;
   position:absolute;
   overflow:hidden;
   width: 70%;
@@ -241,7 +240,7 @@ div.portafolio:hover div.inv {
 
 p.title {
   position: absolute;
-  font-size: 0.9rem;
+  font-size: 1rem;
   margin-top: 2%;
   transition: margin-left 0.3s;
   color: rgb(255, 255, 255);
@@ -255,7 +254,7 @@ div.portafolio:hover p.title {
 
 p.parrafo {
   position: absolute;
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   margin-top: 2%;
   transition: margin-left 0.3s;
   color: rgb(255, 255, 255);
@@ -271,7 +270,7 @@ div.portafolio:hover p.parrafo {
 a#btn{
   font-size: 0.8rem;
   text-align: center;
-  margin: 5% 12% 12%;
+  margin: 6% 10%;
   transition: margin-top 0.4s;
   color: rgb(35, 36, 5);
   font-weight: bolder;
@@ -279,9 +278,9 @@ a#btn{
 }
 
 div.portafolio:hover a#btn{
-  margin-top: 14%;
+  /* margin-top: 14%; */
   /* margin-bottom: 15%; */
-  transition: 1s;
+  /* transition: 1s; */
 }
 
 a#btn:hover {
@@ -333,10 +332,10 @@ h1.name {
   height: 90px;
   margin: auto;
   display: block;
-  -webkit-animation: bounce .8s ease infinite alternate;
-  font-size: 38px;
+  -webkit-animation: bounce .9s ease infinite alternate;
+  font-size: 42px;
   font-weight: bold;
-  color: rgba(211, 245, 87, 0.966);
+  color: rgba(249, 250, 246, 0.966);
   line-height: 60px;
   text-shadow: 0 1px 0 rgb(37, 43, 43);
 }
@@ -352,21 +351,25 @@ h1.name {
 
 @media (min-width:920px) { 
 
+  * {
+    letter-spacing: 0.9px;
+  }
+
   .text {
     bottom: 60%;
     left: 42%;
-    font-size: 3em;
+    font-size: 2.5em;
   }
   
   .sub-text {
     bottom: 38%;
     left: 33%;
     z-index: 1;
-    font-size: 45px;
+    font-size: 42px;
   } 
 
   h1.name {
-    font-size: 68px;
+    font-size: 70px;
   }
 
   h1.title {
@@ -375,15 +378,19 @@ h1.name {
     font-weight: 900;
   }
   
-  .nav-link {
+  /* .nav-link {
     padding: 0 10px;
-  }
+  } */
   .color-nav {
     font-size: 15px;
   }
 
+  header {
+    padding: 18px 360px 10px;
+  }
+
   .nav-scroll{
-    padding: 0px 32px;
+    padding: 0px 360px;
   }
 
   .color-nav:hover {
@@ -393,14 +400,16 @@ h1.name {
     transition: 2s;
   }
 
-  .logo img {
-    width: 80px;
-    padding-bottom: 7px;
-    padding-left: 15px;
+  img.logo{
+    width: 55px;
+    border: 1px solid rgb(229, 255, 0);
+    border-radius: 100px;
+    height: 57px;
+    padding: 6px;
   }
 
   .nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active{
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bolder;
   }
 
@@ -456,6 +465,7 @@ h1.name {
   
   .end, .end-2 {
     margin-left: 0;
+    margin-bottom: 5%;
   }
 
   img.devicon {
@@ -487,7 +497,7 @@ h1.name {
   
   p.title {
     font-size: 1.5rem;
-    margin-top: 8%;
+    margin-top: 7%;
   }
   div.portafolio:hover p.title {
     margin-left:35%;
@@ -495,9 +505,13 @@ h1.name {
 
   a#btn{
     font-size: 1.2rem;
-    margin: 1% auto 5%;
+    margin: 8% 12% 12%; 
     margin-left: 10%;
-    border: 2px solid rgb(68, 70, 9);
+    border: 1.5px solid rgb(68, 70, 9);
+  }
+
+  div.inv {
+    margin-left: 6px;
   }
 }
 
