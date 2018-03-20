@@ -1,7 +1,9 @@
 * {
-  font-family: 'Trocchi', serif;
   letter-spacing: 1px;
-  /* padding: 0; */
+}
+
+main {
+  font-family: 'Cabin', sans-serif !important;
 }
 
 .rigth {
@@ -11,6 +13,7 @@
 .color {
   color: rgb(50, 54, 9);
   font-weight: bolder;
+  font-size: 18px;
 }
 
 .start {
@@ -33,7 +36,7 @@ h1.title {
 }
 /* header */
 header {
-  
+  font-family: 'BioRhyme', serif;
   padding: 20px 5px 5px;
   background:rgba(12, 12, 12, 0.411);
 }
@@ -43,9 +46,6 @@ header {
   padding-bottom: 7px;
 }
 
-/* ul.nav {
-  padding: 5px;
-} */
 .color-nav {
   color: #fcfafb;
   font-size: 9px;
@@ -91,12 +91,10 @@ header {
   position: absolute;
   font-weight: bold;
   bottom: 55%;
-  left: 35%;
+  left: 40%;
   z-index: 1;
   font-size: 1.5em;
-  font-style: italic;
-  color: rgb(25, 27, 4);
-  font-family: 'Trocchi', serif;
+  color: rgb(26, 26, 1);
 } 
 
 
@@ -107,9 +105,7 @@ header {
   left: 16%;
   z-index: 1;
   font-size: 22px;
-  color: rgb(231, 235, 238);
-  font-style: italic;
-  font-family: 'Trocchi', serif;
+  color: rgb(255, 255, 255);
 } 
 
 /* Sobre mí */
@@ -297,7 +293,7 @@ a#btn:hover {
 
 /* contactame */
 #contactame {
-  background-color: #1d1c1c;
+  background-color: #161515;
   color: white;
   height: 100vh;
 }
@@ -312,8 +308,8 @@ a#btn:hover {
   height: 80vh;
 }
 .cont i {
-  font-size: 3em;
-  color: rgb(198, 243, 139);
+  font-size: 3.1em;
+  color: rgba(214, 245, 76, 0.849);
   padding-bottom: 16px;
 }
 
@@ -337,13 +333,11 @@ h1.name {
   height: 90px;
   margin: auto;
   display: block;
-  font-family: 'Trocchi', serif;
   -webkit-animation: bounce .8s ease infinite alternate;
-  font-size: 40px;
+  font-size: 38px;
   font-weight: bold;
-  color: rgba(204, 231, 108, 0.966);
+  color: rgba(211, 245, 87, 0.966);
   line-height: 60px;
-  font-style: italic;
   text-shadow: 0 1px 0 rgb(37, 43, 43);
 }
 /* ANIMATION */
@@ -360,15 +354,15 @@ h1.name {
 
   .text {
     bottom: 60%;
-    left: 16%;
-    font-size: 2.5em;
+    left: 42%;
+    font-size: 3em;
   }
   
   .sub-text {
     bottom: 38%;
-    left: 16%;
+    left: 33%;
     z-index: 1;
-    font-size: 40px;
+    font-size: 45px;
   } 
 
   h1.name {
@@ -453,8 +447,12 @@ h1.name {
     display:inline-flex;
   }
   .card-title {
-    font-size: 17px;
-}
+    font-size: 19px;
+  }
+
+  p.card-text {
+    font-size: 15px;
+  }
   
   .end, .end-2 {
     margin-left: 0;
