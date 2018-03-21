@@ -16,8 +16,8 @@ AOS.init({
 
   //  Array con las imagenes y enlaces que se iran mostrando en la web  
   var imagenes=new Array(
-    ['assets/images/marina.jpeg'],
-    ['assets/images/mar3.jpg']
+    ['assets/images/mar3.jpg'],
+    ['assets/images/marina.jpeg']
   );
 
   // funcion para cabiar la iamgen
@@ -37,7 +37,7 @@ AOS.init({
     rotarImagenes();
 
     // Indicamos que cada 5 segundos cambie la imagen
-    setInterval(rotarImagenes,800);
+    setInterval(rotarImagenes,600);
   }
 
 // Mostrar links de proyectos
