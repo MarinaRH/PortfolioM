@@ -30,8 +30,9 @@ main {
 
 h1.title {
   padding-top: 5%;
-  font-size: 22px;
+  font-size: 27px;
   color: rgb(38, 41, 7);
+  font-weight: bolder;
 }
 
 .center {
@@ -46,7 +47,7 @@ img.logo {
   width: 40px;
 }
 .navbar {
-  background:rgba(12, 12, 12, 0.514) !important;
+  background:rgba(19, 20, 0, 0.548) !important;
   float: right;
   position: fixed;
   font-family: 'BioRhyme', serif;
@@ -56,10 +57,23 @@ img.logo {
 }
 
 .navbar-nav>a {
-  float: right !important;
   color: white !important;
+
+}
+.navbar-nav>a:hover {
+  color: rgba(233, 247, 33, 0.849) !important;
+  border-bottom: 1px solid rgba(216, 230, 30, 0.973) ;
+
+}
+.navbar-nav{
+  margin-left: 55% !important;
 }
 
+.navbar-light .navbar-toggler {
+  color: white !important;
+  border-color: white;
+  background-color: rgb(228, 228, 226);
+}
 
 /* .color-nav {
   color: #fcfafb;
@@ -88,9 +102,10 @@ img.logo {
 } */
 
 .nav-scroll{
-  background-color: rgb(15, 17, 1) !important;
+  background-color: #121402ec !important;
   transition: all 1s ease !important;
   padding: 0 auto;
+  font-weight: bold;
 }
 
 /* .nav-item {
@@ -117,7 +132,7 @@ img.logo {
   left: 40%;
   z-index: 1;
   font-size: 1.5em;
-  color: rgb(34, 34, 2);
+  color:#131602ec;
 } 
 
 
@@ -125,10 +140,10 @@ img.logo {
   position: absolute;
   font-weight: 900;
   bottom: 40%;
-  left: 16%;
+  left: 8%;
   z-index: 1;
-  font-size: 24px;
-  color: rgb(211, 233, 16);
+  font-size: 28px;
+  color: rgb(177, 196, 7);
 } 
 
 /* Sobre mí */
@@ -139,12 +154,12 @@ img.logo {
 }
 
 .img-marin img {
-  width: 75%;
-  height: 70%;
+  width: 70%;
+  height: 105%;
   border-radius: 10%;
   /* margin-left: 15%; */
   margin-top: 10%;
-  /* margin-bottom: -17%; */
+  margin-bottom: -10%;
   transform: rotate(7deg);
   border: 7px solid rgb(239, 248, 204);
 }
@@ -167,17 +182,18 @@ img.logo {
 /* habilidades */
 
 #habilidades {
-  background-color: rgba(244, 252, 204, 0.952);
+  background-color: rgba(208, 218, 156, 0.952);
   padding: 10px 0 25px !important;
 }
 
 .card  {
-  box-shadow: 2px 4px rgba(215, 241, 99, 0.863), 3px 4px rgb(250, 249, 249);
+  box-shadow: 2px 4px #202503cc, 3px 4px rgb(250, 249, 249);
   border-radius: 10px;
   background-color: inherit;
   width: 80%;
   margin-left: 10%;
   margin-top: 2%;
+  padding: 14px;
 }
 
 .card-desktop {
@@ -194,21 +210,22 @@ img.logo {
 }
 
 .card-title {
-  font-size: 13px;
+  font-size: 16px;
+  color:rgba(14, 17, 1, 0.822);
   text-transform:uppercase;
   font-weight: bolder;
 }
 
 p.card-text{
-  font-size: 11px;
+  display: none;
 }
 
 .devicon {
-  font-size: 1.2rem;
+  font-size: 2.8rem;
 }
 
 img.devicon {
-  width: 1rem;
+  width: 2.8rem;
 }
 
 div.inline {
@@ -216,9 +233,10 @@ div.inline {
 }
 
 p.text-ico {
-  color: rgb(78, 112, 112);
-  font-size: 10px;
+  color: rgba(14, 17, 1, 0.781);
+  font-size: 14px;
   margin-right: 2px;
+  font-weight: bold;
 }
 
 /* proyectos */
@@ -229,11 +247,6 @@ p.text-ico {
   box-sizing: border-box !important;
 }
 
-/* .portafolio {
-  padding: 2.5% auto ;
-  box-sizing: border-box;
-} */
-
 .div-proyectos {
   margin-top:6%;
   margin-bottom: 5%;
@@ -243,7 +256,7 @@ p.text-ico {
   border-radius: 10px;
   height: 30vh;
   width: 80%;
-  margin-left: 10%;
+  /* margin-left: 10%; */
 }
 
 /* proyectos hover */
@@ -304,24 +317,25 @@ a#btn{
   color: rgb(35, 36, 5);
   font-weight: bolder;
   border: 1px solid rgb(68, 70, 9);
+  padding: 8px 14px;
 }
 
-div.portafolio:hover a#btn{
-  /* margin-top: 14%; */
-  /* margin-bottom: 15%; */
-  /* transition: 1s; */
-}
+/* div.portafolio:hover a#btn{
+  margin-top: 14%;
+  margin-bottom: 15%;
+   transition: 1s;
+} */
 
 a#btn:hover {
-  background-color: rgba(55, 73, 11, 0.774);
+  background-color: rgba(31, 41, 6, 0.774);
   color: rgb(244, 247, 248);
-  border-color: #303804;
+  border-color: rgb(211, 233, 16);
   /* font-size: 1.2rem; */
 }
 
 /* contactame */
 #contactame {
-  background-color: #161515;
+  background-color: #131602ec;
   color: white;
   height: 100vh;
 }
@@ -342,7 +356,7 @@ a#btn:hover {
 }
 
 h6.white {
-  font-size: 10px;
+  font-size: 15px;
 }
 
 
@@ -362,7 +376,7 @@ h1.name {
   margin: auto;
   display: block;
   -webkit-animation: bounce .9s ease infinite alternate;
-  font-size: 42px;
+  font-size: 45px;
   font-weight: bold;
   color: rgba(249, 250, 246, 0.966);
   line-height: 60px;
@@ -392,7 +406,7 @@ h1.name {
   
   .sub-text {
     bottom: 38%;
-    left: 33%;
+    left: 31%;
     z-index: 1;
     font-size: 42px;
   } 
@@ -403,8 +417,8 @@ h1.name {
 
   h1.title {
     padding-top: 5%;
-    font-size: 34px;
-    font-weight: 900;
+    font-size: 35px;
+    font-weight: bolder;
   }
   
   /* .nav-link {
@@ -475,9 +489,13 @@ h1.name {
   }
 
   .devicon {
-    font-size: 3rem;
+    font-size: 3.4rem;
   }
 
+  p.text-ico {
+    font-size: 13px;
+    margin-right: -19px;
+  }
   .card-mobile {
     display: none;
   }
@@ -487,10 +505,14 @@ h1.name {
   }
   .card-title {
     font-size: 19px;
+    /* color: rgb(14, 17, 1); */
   }
 
   p.card-text {
     font-size: 15px;
+    display: block;
+    color: rgba(14, 17, 1, 0.678);
+    font-weight: bold;
   }
   
   .end, .end-2 {
@@ -503,14 +525,14 @@ h1.name {
   }
   /* sobre mi */
   .img-marin img {
-    width: 75%;
-    height: 60%;
-    margin: 5% 0 0;
+    width: 65%;
+    height: 80%;
+    margin: 2% 9% 0 0;
   }
 
   /* contactame */
   h6.white {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   /* proyectos */
