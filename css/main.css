@@ -405,14 +405,14 @@ h1.name {
   }
   
   .sub-text {
-    bottom: 38%;
-    left: 31%;
+    bottom: 33%;
+    left: 32%;
     z-index: 1;
-    font-size: 42px;
+    font-size: 45px;
   } 
 
   h1.name {
-    font-size: 70px;
+    font-size: 88px;
   }
 
   h1.title {
@@ -461,17 +461,6 @@ h1.name {
     display: inline-block;
   }
 
-  h1.name {
-    font-size: 75px;
-    /* font-weight: 700 !important; */
-    /* font-family: "Pacifico", cursive; */
-  }
-
-  .sub-text {
-    font-size: 45px;
-    bottom: 31%;
-  }
-  
   .vertical {
     font-size: 26px;
   }
@@ -523,11 +512,13 @@ h1.name {
   img.devicon {
     width: 2.5rem;
   }
+
   /* sobre mi */
+
   .img-marin img {
-    width: 65%;
-    height: 80%;
-    margin: 2% 9% 0 0;
+    width: 62%;
+    height: 72%;
+    margin: 4% 0% 0% -20%;
   }
 
   /* contactame */
