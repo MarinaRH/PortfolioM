@@ -66,40 +66,14 @@ img.logo {
 
 }
 .navbar-nav{
-  margin-left: 55% !important;
+  margin-left: 57% !important;
 }
+
 
 .navbar-light .navbar-toggler {
-  color: white !important;
-  border-color: white;
-  background-color: rgb(228, 228, 226);
+  background-color: rgb(187, 187, 52);
 }
 
-/* .color-nav {
-  color: #fcfafb;
-  font-size: 8px;
-  text-align: center !important;
-}
-
-.color-nav:hover {
-  color: rgb(206, 240, 128);
-  font-size: 10px;
-  font-weight: bold;
-} */
-
-/* ul.nav {
-  margin-left: 5%;
-  text-align: center !important;
-  padding: 7px auto;
-  width: 90%
-} */
-
-/* .nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active{
-  background-color:transparent;
-  font-size: 9px;
-  font-weight: bolder;
-  border-bottom: 1px solid rgb(255, 254, 254);
-} */
 
 .nav-scroll{
   background-color: #121402ec !important;
@@ -108,10 +82,6 @@ img.logo {
   font-weight: bold;
 }
 
-/* .nav-item {
-  text-align: center;
-  width: 20%;
-}  */
 
 /* inicio */
 
@@ -282,7 +252,7 @@ div.portafolio:hover div.inv {
 
 p.title {
   position: absolute;
-  font-size: 1rem;
+  font-size: 1.1rem;
   margin-top: 2%;
   transition: margin-left 0.3s;
   color: rgb(255, 255, 255);
@@ -290,13 +260,13 @@ p.title {
 }
 
 div.portafolio:hover p.title {
-  margin-left:23%;
+  margin-left:35%;
   transition: 1s;
 }
 
 p.parrafo {
   position: absolute;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   margin-top: 2%;
   transition: margin-left 0.3s;
   color: rgb(255, 255, 255);
@@ -305,7 +275,7 @@ p.parrafo {
 }
 
 div.portafolio:hover p.parrafo {
-  margin-top:18%;
+  margin-top:15%;
   transition: 1s;
 }
 
@@ -516,7 +486,7 @@ h1.name {
   /* sobre mi */
 
   .img-marin img {
-    width: 62%;
+    width: 67%;
     height: 72%;
     margin: 4% 0% 0% -20%;
   }
@@ -533,13 +503,13 @@ h1.name {
   }
 
   p.parrafo {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     margin-top: 3%;
     padding: 5px 10px;
   }
   
   p.title {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     margin-top: 7%;
   }
   div.portafolio:hover p.title {
@@ -555,6 +525,8 @@ h1.name {
   div.inv {
     margin-left: 12%;
   }
+  
+
 }
 
 
