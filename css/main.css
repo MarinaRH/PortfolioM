@@ -47,7 +47,7 @@ img.logo {
   width: 40px;
 }
 .navbar {
-  background:rgba(19, 20, 0, 0.548) !important;
+  background:rgba(34, 36, 1, 0.829) !important;
   float: right;
   position: fixed;
   font-family: 'BioRhyme', serif;
@@ -86,25 +86,14 @@ img.logo {
 /* inicio */
 
 .inicio {
-  background-image: url(../assets/images/cafe.jpg);
+  background-image: url(../assets/images/cafe11.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size:cover;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center center;
   height: 100vh;
   z-index: 9999;
 }
-
-.text {
-  position: absolute;
-  font-weight: bold;
-  bottom: 55%;
-  left: 40%;
-  z-index: 1;
-  font-size: 1.5em;
-  color:#131602ec;
-} 
-
 
 .sub-text {
   position: absolute;
@@ -117,7 +106,9 @@ img.logo {
 } 
 
 /* Sobre mí */
-
+#sobremi {
+  background-color: rgba(208, 218, 156, 0.952);
+}
 .section-mi {
   height: 90vh;
   padding: 20px 7px !important;
@@ -152,7 +143,7 @@ img.logo {
 /* habilidades */
 
 #habilidades {
-  background-color: rgba(208, 218, 156, 0.952);
+  background-color: rgba(243, 252, 200, 0.952);
   padding: 10px 0 25px !important;
 }
 
@@ -213,7 +204,7 @@ p.text-ico {
 
 #proyectos {
   height: 100%;
-  background-color: #ffffffb6;
+  background-color: #ffffff;
   box-sizing: border-box !important;
 }
 
@@ -286,7 +277,7 @@ a#btn{
   transition: margin-top 0.4s;
   color: rgb(35, 36, 5);
   font-weight: bolder;
-  border: 1px solid rgb(68, 70, 9);
+  border: 2px solid rgb(68, 70, 9);
   padding: 8px 14px;
 }
 
@@ -348,7 +339,7 @@ h1.name {
   -webkit-animation: bounce .9s ease infinite alternate;
   font-size: 45px;
   font-weight: bold;
-  color: rgba(249, 250, 246, 0.966);
+  color: rgb(35, 36, 5);
   line-height: 60px;
   text-shadow: 0 1px 0 rgb(37, 43, 43);
 }
