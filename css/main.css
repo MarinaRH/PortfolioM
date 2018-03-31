@@ -66,7 +66,7 @@ img.logo {
 
 }
 .navbar-nav{
-  margin-left: 57% !important;
+  margin-left: 59% !important;
 }
 
 
@@ -76,7 +76,7 @@ img.logo {
 
 
 .nav-scroll{
-  background-color: #121402ec !important;
+  background-color: #121402 !important;
   transition: all 1s ease !important;
   padding: 0 auto;
   font-weight: bold;
@@ -369,11 +369,11 @@ h1.name {
     bottom: 33%;
     left: 32%;
     z-index: 1;
-    font-size: 45px;
+    font-size: 50px;
   } 
 
   h1.name {
-    font-size: 88px;
+    font-size: 100px;
   }
 
   h1.title {
