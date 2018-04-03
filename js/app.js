@@ -16,10 +16,9 @@ AOS.init({
 
   //  Array con las imagenes y enlaces que se iran mostrando en la web  
   var imagenes=new Array(
-    ['assets/images/mar3.jpg'],
-    ['assets/images/marina.jpeg']
+    ['assets/images/im1.webp'],
+    ['assets/images/mar3.webp']
   );
-
   // funcion para cabiar la iamgen
   function rotarImagenes()
   {

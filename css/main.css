@@ -128,13 +128,12 @@ img.logo {
 }
 
 .img-marin img {
-  width: 64%;
-  height: 111%;
-  border-radius: 10%;
-  /* margin-left: 15%; */
-  margin-top: 5%;
+  width: 61%;
+  height: 95%;
+  border-radius: 100%;
+  margin-top: 3%;
   margin-bottom: -2%;
-  transform: rotate(7deg);
+  transform: rotate(4deg);
 }
 
 
@@ -149,7 +148,7 @@ img.logo {
   font-size: 17px;
   text-align: justify;
   padding: 5px auto;
-  margin-top: 14%;
+  margin-top: -27%;
   letter-spacing: 1px;
   color: rgb(31, 37, 37);
 }
@@ -509,9 +508,10 @@ h1.name {
   /* sobre mi */
 
   .img-marin img {
-    width: 65%;
-    height: 74%;
-    margin: 4% 0% 0% -20%;
+    width: 69%;
+    height: 64%;
+    margin: 7% 2% 0% -16%;
+    border-radius: 100%
   }
 
   /* contactame */
