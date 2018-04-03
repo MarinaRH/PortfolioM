@@ -47,7 +47,7 @@ img.logo {
   width: 40px;
 }
 .navbar {
-  background:rgba(34, 36, 1, 0.829) !important;
+  background:rgba(34, 36, 1, 0.692) !important;
   float: right;
   position: fixed;
   font-family: 'BioRhyme', serif;
@@ -71,12 +71,12 @@ img.logo {
 
 
 .navbar-light .navbar-toggler {
-  background-color: rgb(187, 187, 52);
+  background-color: rgba(122, 122, 25, 0.89);
 }
 
 
 .nav-scroll{
-  background-color: #121402 !important;
+  background-color: #161a02ec !important;
   transition: all 1s ease !important;
   padding: 0 auto;
   font-weight: bold;
@@ -99,15 +99,15 @@ img.logo {
   position: absolute;
   font-weight: 900;
   bottom: 40%;
-  left: 8%;
+  left: 11%;
   z-index: 1;
-  font-size: 28px;
+  font-size: 25px;
   color: rgb(177, 196, 7);
 } 
 
 /* Sobre mí */
 #sobremi {
-  background-color: rgba(208, 218, 156, 0.952);
+  background-color: rgba(241, 248, 206, 0.952);
 }
 .section-mi {
   height: 90vh;
@@ -116,14 +116,16 @@ img.logo {
 
 .img-marin img {
   width: 70%;
-  height: 105%;
+  height: 115%;
   border-radius: 10%;
   /* margin-left: 15%; */
-  margin-top: 10%;
+  margin-top: 6%;
   margin-bottom: -10%;
   transform: rotate(7deg);
-  border: 7px solid rgb(239, 248, 204);
+  border: 7px solid rgb(196, 209, 146);
 }
+
+
 
 .container-flex-column {
   display: flex;
@@ -132,7 +134,7 @@ img.logo {
 }
 
 .biografy {
-  font-size: 16px;
+  font-size: 17px;
   text-align: justify;
   padding: 5px auto;
   margin-top: 10%;
@@ -143,18 +145,19 @@ img.logo {
 /* habilidades */
 
 #habilidades {
-  background-color: rgba(243, 252, 200, 0.952);
+  background-color: rgba(85, 90, 38, 0.877);
   padding: 10px 0 25px !important;
 }
 
 .card  {
-  box-shadow: 2px 4px #202503cc, 3px 4px rgb(250, 249, 249);
+  /* box-shadow: 2px 4px #ccbf05, 3px 4px rgb(250, 249, 249); */
   border-radius: 10px;
-  background-color: inherit;
+  background-color: rgba(78, 83, 36, 0.685);
   width: 80%;
   margin-left: 10%;
   margin-top: 2%;
   padding: 14px;
+  border-color:white;
 }
 
 .card-desktop {
@@ -170,9 +173,10 @@ img.logo {
   margin-bottom: 9%;
 }
 
+
 .card-title {
-  font-size: 16px;
-  color:rgba(14, 17, 1, 0.822);
+  font-size: 19px;
+  color:rgba(244, 255, 193, 0.897);
   text-transform:uppercase;
   font-weight: bolder;
 }
@@ -182,11 +186,7 @@ p.card-text{
 }
 
 .devicon {
-  font-size: 2.8rem;
-}
-
-img.devicon {
-  width: 2.8rem;
+  width: 60px;
 }
 
 div.inline {
@@ -194,7 +194,7 @@ div.inline {
 }
 
 p.text-ico {
-  color: rgba(14, 17, 1, 0.781);
+  color: rgba(17, 20, 3, 0.959);
   font-size: 14px;
   margin-right: 2px;
   font-weight: bold;
@@ -271,7 +271,7 @@ div.portafolio:hover p.parrafo {
 }
 
 a#btn{
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   text-align: center;
   margin: 6% 10%;
   transition: margin-top 0.4s;
@@ -329,6 +329,7 @@ h6.white {
 
 h1.name {
   position: absolute;
+  font-family: 'BioRhyme', serif !important;
   top: 20px;
   left: 0;
   right: 0;
@@ -337,11 +338,11 @@ h1.name {
   margin: auto;
   display: block;
   -webkit-animation: bounce .9s ease infinite alternate;
-  font-size: 45px;
+  font-size: 37px;
   font-weight: bold;
   color: rgb(35, 36, 5);
   line-height: 60px;
-  text-shadow: 0 1px 0 rgb(37, 43, 43);
+  text-shadow: 0 1px 0 rgb(1, 24, 24);
 }
 /* ANIMATION */
 @-webkit-keyframes bounce {
@@ -350,7 +351,11 @@ h1.name {
   }
 }
 
-
+.title1 {
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
 
 
 @media (min-width:820px) { 
@@ -373,7 +378,7 @@ h1.name {
   } 
 
   h1.name {
-    font-size: 100px;
+    font-size: 80px;
   }
 
   h1.title {
@@ -438,14 +443,15 @@ h1.name {
     margin-left: 25%;
   }
 
-  .devicon {
-    font-size: 3.4rem;
+  img.devicon {
+    width: 57px;
   }
 
   p.text-ico {
-    font-size: 13px;
+    font-size: 14px;
     margin-right: -19px;
   }
+
   .card-mobile {
     display: none;
   }
@@ -454,15 +460,15 @@ h1.name {
     display:inline-flex;
   }
   .card-title {
-    font-size: 19px;
-    /* color: rgb(14, 17, 1); */
+    font-size: 25px;
   }
 
   p.card-text {
-    font-size: 15px;
+    font-size: 16px;
     display: block;
-    color: rgba(14, 17, 1, 0.678);
+    color: rgba(20, 24, 4, 0.959);
     font-weight: bold;
+    margin-bottom: 35px;
   }
   
   .end, .end-2 {
@@ -470,15 +476,11 @@ h1.name {
     margin-bottom: 5%;
   }
 
-  img.devicon {
-    width: 2.5rem;
-  }
-
   /* sobre mi */
 
   .img-marin img {
-    width: 67%;
-    height: 72%;
+    width: 65%;
+    height: 74%;
     margin: 4% 0% 0% -20%;
   }
 
@@ -508,7 +510,7 @@ h1.name {
   }
 
   a#btn{
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin: 8% 0 10%; 
     border: 1.2px solid rgb(68, 70, 9);
   }
