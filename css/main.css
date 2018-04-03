@@ -19,20 +19,33 @@ main {
   font-size: 18px;
 }
 
-.start {
-  color: rgb(38, 41, 7);
-  font-size: 26px;
-  font-weight: 900;
-}
 .white {
   color: white;
 }
 
 h1.title {
-  padding-top: 5%;
-  font-size: 27px;
+  padding-top: 7%;
+  font-size: 33px;
   color: rgb(38, 41, 7);
   font-weight: bolder;
+}
+
+h1.title::after {
+  content: '';
+  width: 20%;
+  height: 3px;
+  background-color:rgb(38, 41, 7);
+  margin-left: 40%;
+  display: block;
+}
+
+h1.title1::after {
+  content: '';
+  width: 20%;
+  height: 2.5px;
+  background-color:white;
+  margin-left: 40%;
+  display: block;
 }
 
 .center {
@@ -47,7 +60,7 @@ img.logo {
   width: 40px;
 }
 .navbar {
-  background:rgba(34, 36, 1, 0.692) !important;
+  background:rgba(45, 48, 2, 0.76) !important;
   float: right;
   position: fixed;
   font-family: 'BioRhyme', serif;
@@ -115,14 +128,13 @@ img.logo {
 }
 
 .img-marin img {
-  width: 70%;
-  height: 115%;
+  width: 64%;
+  height: 111%;
   border-radius: 10%;
   /* margin-left: 15%; */
-  margin-top: 6%;
-  margin-bottom: -10%;
+  margin-top: 5%;
+  margin-bottom: -2%;
   transform: rotate(7deg);
-  border: 7px solid rgb(196, 209, 146);
 }
 
 
@@ -271,7 +283,7 @@ div.portafolio:hover p.parrafo {
 }
 
 a#btn{
-  font-size: 0.9rem;
+  font-size: 1rem;
   text-align: center;
   margin: 6% 10%;
   transition: margin-top 0.4s;
@@ -317,7 +329,7 @@ a#btn:hover {
 }
 
 h6.white {
-  font-size: 15px;
+  font-size: 16.5px;
 }
 
 
@@ -377,6 +389,24 @@ h1.name {
     font-size: 50px;
   } 
 
+  h1.title::after {
+    content: '';
+    width: 6%;
+    height: 3.5px;
+    background-color:rgb(38, 41, 7);
+    margin-left: 47%;
+    display: block;
+  }
+  
+  h1.title1::after {
+    content: '';
+    width: 6%;
+    height: 3.5px;
+    background-color:white;
+    margin-left: 47%;
+    display: block;
+  }
+
   h1.name {
     font-size: 80px;
   }
@@ -412,7 +442,7 @@ h1.name {
 
   img.logo{
     width: 55px;
-    border: 1px solid rgb(229, 255, 0);
+    /* border: 1px solid rgb(229, 255, 0); */
     border-radius: 100px;
     height: 57px;
     padding: 6px;
