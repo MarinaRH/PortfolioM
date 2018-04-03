@@ -114,7 +114,7 @@ img.logo {
   bottom: 40%;
   left: 11%;
   z-index: 1;
-  font-size: 25px;
+  font-size: 29px;
   color: rgb(177, 196, 7);
 } 
 
@@ -149,7 +149,7 @@ img.logo {
   font-size: 17px;
   text-align: justify;
   padding: 5px auto;
-  margin-top: 10%;
+  margin-top: 14%;
   letter-spacing: 1px;
   color: rgb(31, 37, 37);
 }
@@ -188,7 +188,7 @@ img.logo {
 
 .card-title {
   font-size: 19px;
-  color:rgba(244, 255, 193, 0.897);
+  color:rgb(255, 255, 255);
   text-transform:uppercase;
   font-weight: bolder;
 }
@@ -206,8 +206,8 @@ div.inline {
 }
 
 p.text-ico {
-  color: rgba(17, 20, 3, 0.959);
-  font-size: 14px;
+  color: rgba(218, 235, 145, 0.897);
+  font-size: 17px;
   margin-right: 2px;
   font-weight: bold;
 }
@@ -329,7 +329,7 @@ a#btn:hover {
 }
 
 h6.white {
-  font-size: 16.5px;
+  font-size: 15.5px;
 }
 
 
