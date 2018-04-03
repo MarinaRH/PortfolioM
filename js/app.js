@@ -16,7 +16,7 @@ AOS.init({
 
   //  Array con las imagenes y enlaces que se iran mostrando en la web  
   var imagenes=new Array(
-    ['assets/images/im1.webp'],
+    // ['assets/images/marina.webp'],
     ['assets/images/mar3.webp']
   );
   // funcion para cabiar la iamgen
