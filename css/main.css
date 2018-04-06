@@ -338,6 +338,10 @@ a#btn:hover {
 h6.white {
   font-size: 15.5px;
 }
+a.white:hover {
+  color:rgba(233, 247, 33, 0.849);
+  font-size:16px;
+}
 
 
 
@@ -515,7 +519,7 @@ h1.name {
   /* sobre mi */
 
   .img-marin img {
-    width: 260px;
+    width: 270px;
     border-radius: 6%;
     border:5px solid rgb(123, 134, 97);
   }
