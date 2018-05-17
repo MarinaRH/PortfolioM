@@ -328,10 +328,10 @@ a#btn:hover {
 #contactame>.container>.row {
   display: flex;
   align-items: center !important;
-  height: 77vh;
+  height: 65vh;
 }
 .cont i {
-  font-size: 3.1em;
+  font-size: 2em;
   color: rgba(214, 245, 76, 0.849);
   padding-bottom: 16px;
 }
@@ -381,9 +381,37 @@ h1.name {
   margin-top: 30px;
 }
 
+.download{
+  /* position: absolute; */
+  bottom: 20px;
+  z-index: 9999;
+}
+
+.btn-down {
+  position: absolute;
+  bottom: 70px;
+  right: 45%;
+}
+
+.download {
+  border-radius: 10px;
+  background-color: #161a02ec;
+  font-weight: 900;
+  font-size: 1.3rem;
+  padding: 14px;
+  border: none
+}
+.download:hover {
+  background-color: rgb(174, 177, 7);
+  font-size: 1.4rem;
+}
+
+.download>a{
+  color: white;
+  text-decoration-line: none;
+}
 
 @media (min-width:820px) { 
-
   * {
     letter-spacing: 0.9px;
   }
@@ -588,6 +616,9 @@ h1.name {
     margin-left: 12%;
   }
   
+  .cont i {
+    font-size: 2.1em;
+  }
 
 }
 
