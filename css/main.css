@@ -50,10 +50,6 @@ h1.title1::after {
 .center {
   text-align: center !important;
 }
-/* header */
- /* header nav {
-  
-} */
 
 img.logo {
   width: 40px;
@@ -124,29 +120,29 @@ img.logo {
 .intereses {
   display:inline-flex;
   font-weight: bolder;
-  
+  margin: auto;
 }
 
 .intereses>div>img {
   border-radius: 100%;
   border: 1px solid rgb(174, 177, 7);
-  width: 65px;
+  width: 55px;
 }
 
 .sub-txt{
   color: rgba(36, 51, 8, 0.966);
+  margin: auto;
 }
 
 div.img-marin {
-  text-align: center;
+  margin: auto;
 }
 
 .img-marin img {
-  width: 200px;
-  border-radius: 6%;
-  border:5px solid rgb(123, 134, 97);
-  margin-bottom: 45px;
+  width: 230px;
+  border-radius: 50%;
 }
+
 
 
 .container-flex-column {
@@ -185,9 +181,10 @@ div.img-marin {
   display: none;
 }
 
-/* .end {
-  margin-left: 10%;
-} */
+.card-desktop2 {
+  display: none;
+}
+
 
 .end-2 {
   margin-left: 25%;
@@ -301,17 +298,12 @@ a#btn{
   padding: 5px;
 }
 
-/* div.portafolio:hover a#btn{
-  margin-top: 14%;
-  margin-bottom: 15%;
-   transition: 1s;
-} */
 
 a#btn:hover {
   background-color: rgba(31, 41, 6, 0.774);
   color: rgb(244, 247, 248);
   border-color: rgb(211, 233, 16);
-  /* font-size: 1.2rem; */
+  transition: 3s;
 }
 
 /* contactame */
@@ -390,19 +382,19 @@ h1.name {
 .btn-down {
   position: absolute;
   bottom: 70px;
-  right: 45%;
+  right: 32%;
 }
 
 .download {
   border-radius: 10px;
-  background-color: #161a02ec;
+  background-color: rgb(174, 177, 7);
   font-weight: 900;
   font-size: 1.3rem;
   padding: 14px;
   border: none
 }
 .download:hover {
-  background-color: rgb(174, 177, 7);
+  background-color:#161a02ec  ;
   font-size: 1.4rem;
 }
 
@@ -470,20 +462,13 @@ h1.name {
   .intereses>div>img {
     border-radius: 100%;
     border: 1px solid rgb(174, 177, 7);
-    width: 100px;
+    width: 70px;
   }
 
   .nav-scroll{
     padding-top: 0;
     padding-bottom: 0;
   }
-
-  /* .color-nav:hover {
-    color: rgb(214, 250, 149);
-    font-size: 16px;
-    font-weight: bolder;
-    transition: 2s;
-  } */
 
   img.logo{
     width: 55px;
@@ -492,17 +477,12 @@ h1.name {
     padding: 6px;
   }
 
-  /* .nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active{
-    font-size: 15px;
-    font-weight: bolder;
-  } */
+  .btn-down {
+    right: 45%;
+  }
 
   .hiden {
     display: inline-block;
-  }
-
-  .vertical {
-    font-size: 26px;
   }
 
   /* habilidades
@@ -531,9 +511,14 @@ h1.name {
   }
 
   .card-desktop {
-    display:inline-flex;
-    width: 85%;
+    display:block;
   }
+
+  .card-desktop2 {
+   display: inline-flex;
+   width: 90%;
+  }
+
   .card-title {
     font-size: 25px;
   }
@@ -557,16 +542,20 @@ h1.name {
   }
 
   .img-marin img {
-    width: 270px;
-    border-radius: 6%;
-    border:5px solid rgb(123, 134, 97);
-  }
-  div.img-marin {
-    text-align:left;
+    width: 320px;
   }
 
-  .biografy {
-    margin-top:18px;
+  div.img-marin::after {
+    clear: both;
+    content: '';
+    display: block;
+  }
+
+  .foto {
+  float: left;
+  shape-outside: circle();
+  padding: 20px;
+
   }
 
   .color {
